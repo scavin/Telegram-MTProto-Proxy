@@ -7,7 +7,7 @@ Unofficial Docker image for Telegram MTProto Proxy https://t.me/MadelineProto/34
   $ docker run -d --name mtproto \
           --restart=always \
           -p 6666:6666 \
-          scavin/mtproto \
+          scavin/telegram-mtproto-proxy \
           mtproxyd pony 6666        
 ```
 
@@ -17,11 +17,11 @@ Unofficial Docker image for Telegram MTProto Proxy https://t.me/MadelineProto/34
 ```  
     # docker logs tproto
     Powered by MadelineProto, licensed under AGPLv3
-    **Secret** is 4b3e3c2f99046f92a61bab6775848577
+    Secret is 4b3e3c2f99046f92a61bab6775848577
     TL:             	Loading TL schemes...
     TL:             	Parsing TL_mtproto_v1.json...
     TL:             	Parsing TL_telegram_v75.tl...
     TL:             	Parsing TL_secret.tl...
     TL:             	Parsing TL_calls.tl...
 
-Quick link: https://t.me/proxy?server=**YOURIPADDRESS**&port=6666&secret=**YOURSECRET**
+    Quick link: https://t.me/proxy?server=YOURIPADDRESS&port=6666&secret=YOURSECRET
