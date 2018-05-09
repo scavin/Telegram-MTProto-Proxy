@@ -2,6 +2,7 @@ FROM ubuntu:xenial
 
 RUN apt-get update && apt-get install -y \
 	wget \
+	php7.0-curl \
 	software-properties-common \
 	python-software-properties \
 	php \
