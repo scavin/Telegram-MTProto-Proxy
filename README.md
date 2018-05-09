@@ -4,11 +4,7 @@ Unofficial Docker image for Telegram MTProto Proxy https://t.me/MadelineProto/34
 ## Get Started
 
 ```
-  $ docker run -d --name mtproto \
-          --restart=always \
-          -p 6666:6666 \
-          scavin/telegram-mtproto-proxy \
-          mtproxyd pony 6666        
+  $ docker run -d --name mtproto --restart=always -p 6666:6666 scavin/telegram-mtproto-proxy mtproxyd pony 6666        
 ```
 
 ## Usage
